@@ -46,7 +46,7 @@ const About = () => {
                 <div className="about-card">
                     
                     <p>
-                        What does the back of this look like?
+                        What does the behind-the-scenes look like?
                     </p>
                     <div className="desktop-image">
                     <img src="/images/code.png" alt="Coding" className="about-image" />
