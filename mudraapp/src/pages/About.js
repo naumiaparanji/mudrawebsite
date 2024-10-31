@@ -46,13 +46,13 @@ const About = () => {
                 <div className="about-card">
                     
                     <p>
-                        What does the bts look like?
+                        Behind the scenes: Where coding meets art
                     </p>
                     <div className="desktop-image">
                     <img src="/images/code.png" alt="Coding" className="about-image" />
                     </div>
                     <p>
-                    This website represents a unique fusion of traditional art and modern technology. As I designed each section, from the interactive mudras to the informative About page, I aimed to capture the essence of Bharatanatyam while leveraging web development to make this experience accessible and engaging. Coding this project allowed me to bridge two passions—classical dance and computer science—showcasing how cultural heritage can be reimagined in the digital age.
+                    Pictured is the snapshot of code that built it all. This website represents a unique fusion of traditional art and modern technology. As I designed each section, from the interactive mudras to the informative About page, I aimed to capture the essence of Bharatanatyam while leveraging web development to make this experience accessible and engaging. Coding this project allowed me to bridge two passions—classical dance and computer science—showcasing how cultural heritage can be reimagined in the digital age.
                     </p>
                 </div>
             </div>
