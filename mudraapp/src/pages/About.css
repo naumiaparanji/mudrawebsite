@@ -1,0 +1,68 @@
+/* src/pages/About.css */
+.about {
+    text-align: center;
+    padding: 20px;
+    color: #585123;
+}
+
+.abheader {
+    position: center;
+    top: -20px; /* Adjust to overlap with the navbar */
+    z-index: 1; /* Ensures the heading appears over the navbar */
+    background-color: #585123; /* Optional background for contrast */
+    color: white; /* Golden yellow for emphasis */
+    padding: 0.2em;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 1400px;
+    margin-left: 150px;
+    margin-bottom: 35px;
+    margin-top: -5px;
+}
+
+.about-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-card {
+    background-color: #F2A65A; /* Light orange */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #585123;
+}
+
+.about-image {
+    width: 25%;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.image-row {
+    display: flex;
+    gap: 40px; /* Space between images */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.abtoutro {
+    background-color: #dad8d8; /* Light orange */
+    padding: 15px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 30px;
+    color: #772F1A; /* Deep brown-red for contrast */
+    margin-bottom: 20px;
+    margin-left: 220px;
+}

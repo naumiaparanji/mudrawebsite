@@ -16,3 +16,28 @@
     padding: 60px;
     justify-content: center; /* Centers the grid items */
 }
+
+.header {
+    position: relative;
+    top: -20px; /* Adjust to overlap with the navbar */
+    z-index: 1; /* Ensures the heading appears over the navbar */
+    background-color: #585123; /* Optional background for contrast */
+    color: white; /* Golden yellow for emphasis */
+    padding: 0.2em;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 1400px;
+}
+
+.tutintro, .tutoutro {
+    background-color: #dad8d8; /* Light orange */
+    padding: 15px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1000px;
+    color: #772F1A; /* Deep brown-red for contrast */
+}
+
+.tutoutro {
+    margin-bottom: 30px;
+}

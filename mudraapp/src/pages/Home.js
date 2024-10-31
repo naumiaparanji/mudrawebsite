@@ -5,14 +5,15 @@ import './Home.css';
 const Home = () => {
     return (
         <div className="home">
+            <br></br>
             <div className="header">
                 <h1>Welcome to the Bharatanatyam Mudras Website</h1>
             </div>
-            
+            <br></br>
             <section className="intro">
             <h2>About This Experience</h2>
             <p>
-                I've had the honor of taking several courses toward my Computer Science degree and Honors coursework at the University of Houston. One of the most interesting and thought-provoking courses has been HON 3310: Creativity at Work. When I first added this course to my shopping cart, I thought it would simply meet my Writing in Disciplines requirement. But it's safe to say that it has gone above and beyond that.
+                I've had the honor of taking several courses toward my Computer Science degree and Honors coursework at the University of Houston. One of the most interesting and thought-provoking courses has been HON 3310: Creativity at Work. When I first added this course to my enrollment shopping cart, I thought it would simply meet my Writing in Disciplines requirement. But it's safe to say that it has gone above and beyond just meeting requirements.
             </p>
             <p>
                 As has been the theme in most of my weekly reflections, I have truly enjoyed the interdisciplinary connections made in this course. Growing up, my education was very structured; subjects were taught in isolation, with little encouragement to explore interdisciplinary collaboration. But with this course and my time in college, I realize how impactful collaboration can be. Collaboration, actually leads to richer and more innovative results, and I want to tailor my Creative Response Project to this realization.
@@ -28,7 +29,7 @@ const Home = () => {
                 <p><strong>Younger Me:</strong> "Oh, I’m not so sure."</p>
 
                 <p>"Well, what first comes to mind?"</p>
-                <p><strong>Younger Me:</strong> "Hmm, I see grown men sitting at desks with computers and working on something really important."</p>
+                <p><strong>Younger Me:</strong> "Hmm, All that comes to mind are a group of grown men sitting at desks with computers and working on something really important."</p>
 
             </div>
             <p>
@@ -45,12 +46,13 @@ const Home = () => {
             <section className="guide">
                 <h2>How to Use This Website</h2>
                 <p>
-                    Navigate to the <strong>Mudras</strong> page to explore various Bharatanatyam mudras. Each mudra is displayed as
-                    a card. Click on any card to flip it and reveal the name, translation, and usage of the mudra.
+                    Check out the <strong>About</strong> page to learn more about Bharatanatyam and my ties to it, and also watch a recently choreographed 1.5 minute dance video!
                 </p>
                 <p>
-                    Use the <strong>About</strong> page to learn more about Bharatanatyam and its significance, and the
-                    <strong> Contact</strong> page for any inquiries or feedback.
+                    Navigate to the <strong>Mudras</strong> page to explore various Bharatanatyam mudras. This is the centerpiece of my Project. Each mudra is displayed as a card. Click on any card to flip it and reveal the name, translation, and usage of the mudra. 
+                </p>
+                <p>
+                    Explore the <strong>Contact</strong> page to get in touch with me for more such collaborations and/or to connect with me on social media!
                 </p>
             </section>
         </div>

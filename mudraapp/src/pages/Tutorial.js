@@ -38,15 +38,24 @@ const mudras = [
 const Tutorial = () => {
     return (
         <div className="tutorial">
-            <h2>Bharatanatyam Mudras</h2>
-            <p>Adding a paragraph later to reflect on something</p>
-            <p>Click on each mudra to learn more about the usage of each in the context of dance.</p>
+            <br></br>
+            <div className="header">
+                <h1>Bharatanatyam Mudras</h1>
+            </div>
+            <br></br>
+            <section className="tutintro">
+                <p>In one of our class discussions, we explored the world of <strong>botany</strong> alongside intriguing pieces of poetry and prose, delving into the concept of flower language. This reminded me of the expressive language of hand gestures in Bharatanatyam. Symbols, gestures, and the language of flowers all serve as unique forms of communication, each conveying emotions and stories in their own way.</p>
+                <p>Please click on each mudra to learn more about its usage in different settings of a choreography.</p>
+            </section>
             <div className="mudra-grid">
                 {mudras.map((mudra, index) => (
                     <MudraCard key={index} mudra={mudra} />
                 ))}
             </div>
-            <p>Learning never ceases. Explore more if interested</p>
+            <section className="tutoutro">
+            <p>Learning never ceases! A good starting place to getting started with Bharatnatyam is <a href="https://www.youtube.com/watch?v=MzDZYVhfgNw" target="_blank" rel="noopener noreferrer">this video</a>.</p>
+
+            </section>
         </div>
     );
 };
