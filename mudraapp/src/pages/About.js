@@ -17,7 +17,7 @@ const About = () => {
                 <div className="about-card">
                 <p>
                         The rhythm, the grace, and the discipline of Bharatanatyam have taught me so much about patience and
-                        focus. Each movement and expression feels like a journey of self-discovery, blending beauty and purpose. I imagine this activity, if they resided in India, would have also been something that the <strong>Schlegel sisters</strong> (reference to course material) would have indulged in.
+                        focus. Each movement and expression feels like a journey of self-discovery, blending beauty and purpose. I imagine that this activity, if they resided in India, would have also been something that the <strong>Schlegel sisters</strong> (reference to course material) would have indulged in. They would have enjoyed the dance routine and would have probably had very intellectual conversations about the interpretations of the choreography.
                     </p>
                     <iframe
                         width="73%" 
@@ -29,7 +29,7 @@ const About = () => {
                         allowFullScreen
                     ></iframe>
                     <p>
-                    In this dance, I introduce an invocation to Shiva, revered as the Creator in Hindu mythology. The slower, opening segment of the dance pays homage to Shiva, acknowledging our humble place as mortals before the divine. The second, faster-paced segment portrays Lord Shiva's daily routine—draping himself in lion skin, binding the sacred River Ganga in his hair, and honoring his acts of kindness toward humanity.
+                    In this dance, I introduce an invocation to Shiva, revered as the Creator in Hindu mythology. The slower, opening segment of the dance pays homage to Shiva, acknowledging our humble place as mere mortals before the divine. The second, faster-paced segment portrays Lord Shiva's daily routine—draping himself in lion skin, binding the sacred River Ganga in his hair, and honoring his acts of kindness toward humanity.
                     </p>
                 </div>
 
@@ -41,6 +41,18 @@ const About = () => {
                     <p>
                         Bharatanatyam connects me to my roots, allowing me to express emotions and stories that have been
                         passed down through generations. It’s more than a dance form; it’s a way to embody culture, tradition, and art.
+                    </p>
+                </div>
+                <div className="about-card">
+                    
+                    <p>
+                        What does the back of this look like?
+                    </p>
+                    <div className="desktop-image">
+                    <img src="/images/code.png" alt="Coding" className="about-image" />
+                    </div>
+                    <p>
+                    This website represents a unique fusion of traditional art and modern technology. As I designed each section, from the interactive mudras to the informative About page, I aimed to capture the essence of Bharatanatyam while leveraging web development to make this experience accessible and engaging. Coding this project allowed me to bridge two passions—classical dance and computer science—showcasing how cultural heritage can be reimagined in the digital age.
                     </p>
                 </div>
             </div>

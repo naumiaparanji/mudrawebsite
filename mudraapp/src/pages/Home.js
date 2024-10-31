@@ -13,7 +13,7 @@ const Home = () => {
             <section className="intro">
             <h2>About This Experience</h2>
             <p>
-                I've had the honor of taking several courses toward my Computer Science degree and Honors coursework at the University of Houston. One of the most interesting and thought-provoking courses has been HON 3310: Creativity at Work. When I first added this course to my enrollment shopping cart, I thought it would simply meet my Writing in Disciplines requirement. But it's safe to say that it has gone above and beyond just meeting requirements.
+                I've had the honor of taking several courses toward my Computer Science degree and Honors coursework at the University of Houston. One of the most interesting and thought-provoking courses has been HON 3310: Creativity at Work. When I first added this course to my enrollment shopping cart, I thought it would simply meet my Writing in Disciplines requirement. But it's safe to say that it has gone above and beyond doing that.
             </p>
             <p>
                 As has been the theme in most of my weekly reflections, I have truly enjoyed the interdisciplinary connections made in this course. Growing up, my education was very structured; subjects were taught in isolation, with little encouragement to explore interdisciplinary collaboration. But with this course and my time in college, I realize how impactful collaboration can be. Collaboration, actually leads to richer and more innovative results, and I want to tailor my Creative Response Project to this realization.
@@ -46,7 +46,7 @@ const Home = () => {
             <section className="guide">
                 <h2>How to Use This Website</h2>
                 <p>
-                    Check out the <strong>About</strong> page to learn more about Bharatanatyam and my ties to it, and also watch a recently choreographed 1.5 minute dance video!
+                Check out the <strong>About</strong> page to learn more about Bharatanatyam and my personal connection to it. You can also watch a newly choreographed 1.5-minute dance video created specifically for this website!
                 </p>
                 <p>
                     Navigate to the <strong>Mudras</strong> page to explore various Bharatanatyam mudras. This is the centerpiece of my Project. Each mudra is displayed as a card. Click on any card to flip it and reveal the name, translation, and usage of the mudra. 
