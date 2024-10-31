@@ -34,10 +34,28 @@
 }
 
 h2 {
-    color: #F58549; /* Bright orange */
+    color: #772F1A; /* Bright orange */
     margin-bottom: 10px;
 }
 
 p {
     line-height: 1.6;
+}
+
+.dialogue {
+    background-color: #ffe3af; /* Golden yellow for distinction */
+    padding: 15px;
+    margin: 0px 0;
+    border-radius: 5px;
+    font-style: italic;
+    color: #585123;
+}
+
+.dialogue p {
+    margin: 10px 0;
+}
+
+.dialogue p strong {
+    font-weight: bold;
+    color: #772F1A; /* Deep brown-red for emphasis */
 }

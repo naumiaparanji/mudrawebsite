@@ -10,39 +10,37 @@ const Home = () => {
             </div>
             
             <section className="intro">
-                <h2>About This Experience</h2>
-                <p>
-                    I've had the honor of taking several courses toward my Computer Science degree and Honors coursework at the University of Houston. The most interesting and thought-provoking courses however, is HON 3310: Creativity at Work. When I first added this course to my shopping cart, I wanted it to just meet my Writing in Disciplines requirement. But I think it's safe to say that it has gone above and beyond that. 
-                </p>
-                <p>
-                    As has been the theme in most of my weekly reflections that were a part of the grade for the class, I've truly  enjoyed the interdisciplinary connections made in this course. Growing up, my education structure was very rigid and I was always taught different subjects separately - there was no push in the direction of exploring the results of interdisciplinary collaboration. But, with this course and also my time in college, I only feel silly for not having thought about this before. Collaboration, in fact, leads to better results. And I want to tailor my Creative Response Project to this. 
-                </p>
-                <p>
-                    Here is how I envision a conversation with younger me:
-                    <p>"What is dance to you?"</p>
-                    <p>Younger me: "Oo I love dance! Dance is beauty, grace, expressions, and so much more! I particularaly enjoy Bharatnatyam, an Indian classical dance form that I've been learing for quite some time now!"</p>
+            <h2>About This Experience</h2>
+            <p>
+                I've had the honor of taking several courses toward my Computer Science degree and Honors coursework at the University of Houston. One of the most interesting and thought-provoking courses has been HON 3310: Creativity at Work. When I first added this course to my shopping cart, I thought it would simply meet my Writing in Disciplines requirement. But it's safe to say that it has gone above and beyond that.
+            </p>
+            <p>
+                As has been the theme in most of my weekly reflections, I have truly enjoyed the interdisciplinary connections made in this course. Growing up, my education was very structured; subjects were taught in isolation, with little encouragement to explore interdisciplinary collaboration. But with this course and my time in college, I realize how impactful collaboration can be. Collaboration, actually leads to richer and more innovative results, and I want to tailor my Creative Response Project to this realization.
+            </p>
+            <p>
+                Here is how I envision a conversation with my younger self:
+            </p>
+            <div className="dialogue">
+                <p>"What is dance to you?"</p>
+                <p><strong>Younger Me:</strong> "Oo I love dance! Dance is beauty, grace, expressions, and so much more! I particularly enjoy Bharatanatyam, an Indian classical dance form that I've been learning for quite some time now!"</p>
 
-                    <p>"How wonderful! And what are computers and technology to you?"</p>
-                    <p>Youger me: "Oh I'm not so sure."</p>
+                <p>"How wonderful! And what are computers and technology to you?"</p>
+                <p><strong>Younger Me:</strong> "Oh, I’m not so sure."</p>
 
-                    <p>"Well. what firt comes to your mind?"</p>
-                    <p>Younger me: "Hmm, I would say some grown men sitting at desks and wokring on something really important."</p>
+                <p>"Well, what first comes to mind?"</p>
+                <p><strong>Younger Me:</strong> "Hmm, I see grown men sitting at desks with computers and working on something really important."</p>
 
-                    Younger me would not only grow up to break the stereotype and be a woman in STEM, but to her surprise, would also discover that there is so much to collaborate on in the field of art and science. 
-                </p>
-                <p>    
-                    This website bridges the art of Bharatanatyam with the world of web development, offering a unique
-                    journey into traditional Indian dance through modern technology. My aim is to showcase how cultural
-                    heritage and coding can coexist, creating an interactive learning experience that pays homage to the
-                    beauty and precision of Bharatanatyam.
-                </p>
-                <p>
-                    By blending the structured and creative nature of coding with the expressive art of Bharatanatyam, I
-                    hope to inspire a deeper appreciation of both fields. Each mudra (hand gesture) reflects elements of
-                    storytelling, symbolism, and cultural expression – just as each line of code here supports this digital
-                    narrative.
-                </p>
-            </section>
+            </div>
+            <p>
+                    Younger me would not only grow up to break this stereotype and become a woman in STEM but, through the Creativity course, would also discover that there is so much potential in the collaboration between art and science.
+            </p>
+            <p>
+                This website bridges the art of Bharatanatyam with the world of web development, offering a unique journey into traditional Indian dance through modern technology. My aim is to showcase how cultural heritage and coding can coexist, creating an interactive learning experience that pays homage to the beauty and precision of Bharatanatyam.
+            </p>
+            <p>
+                By blending the structured and creative nature of coding with the expressive art of Bharatanatyam, I hope to inspire a deeper appreciation of both fields. Each mudra (hand gesture) reflects elements of storytelling, symbolism, and cultural expression – just as each line of code here supports this digital narrative. 
+            </p>
+        </section>
             
             <section className="guide">
                 <h2>How to Use This Website</h2>
