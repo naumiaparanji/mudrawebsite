@@ -1,4 +1,4 @@
-# mudraanimationtutorial
+# mudrawebsite
 
 Access the website here: https://mudraanimationtutorial.vercel.app/ 
 
