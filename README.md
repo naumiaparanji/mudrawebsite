@@ -1,6 +1,6 @@
 # mudrawebsite
 
-Access the website here: https://mudraanimationtutorial.vercel.app/ 
+Access the full website here: https://mudraanimationtutorial.vercel.app/ 
 
 Originally developed for the course HON 3310: Creativity at Work. 
 
