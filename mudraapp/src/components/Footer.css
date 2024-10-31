@@ -1,13 +1,43 @@
 /* src/components/Footer.css */
 .footer {
     display: flex;
-    justify-content: center;
-    padding: 1em;
-    background-color: #585123;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-left p {
+    margin: 0;
+    margin-left: 200px;
+}
+
+.footer-left a {
+    color: #EEC170; /* Optional color for email link */
+    text-decoration: none;
+}
+
+.footer-left a:hover {
+    text-decoration: underline;
+}
+
+.footer-right {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-right p {
+    color: white;
+    margin: 0;
 }
 
 .footer-icon {
     width: 24px;
     height: 24px;
-    margin: 0 0.5em;
 }

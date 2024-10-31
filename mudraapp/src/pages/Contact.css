@@ -1,0 +1,88 @@
+/* src/pages/Contact.css */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #585123;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.conheader {
+    position: relative;
+    top: -20px; /* Adjust to overlap with the navbar */
+    z-index: 1; /* Ensures the heading appears over the navbar */
+    background-color: #585123; /* Optional background for contrast */
+    color: white; /* Golden yellow for emphasis */
+    padding: 0.2em;
+    border-radius: 5px;
+    width: 120%;
+    margin-top: 90px;
+    max-width: 1400px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    gap: 20px; /* Space between image and text */
+    max-width: 800px;
+    margin: auto; /* Centers the contact-info container */
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-image-container {
+    flex-shrink: 0; /* Prevents the image container from resizing */
+}
+
+.contact-image {
+    width: 200px;
+    height: auto;
+    border-radius: 20%;
+    margin-bottom: 15px;
+}
+
+.contact-text {
+    flex: 1; /* Allows text to take up remaining space */
+    margin-left: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #EEC170; /* Golden yellow */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-form button:hover {
+    background-color: #F2A65A; /* Light orange */
+}
+
+.submitbut {
+    margin-left: 20px;
+}
