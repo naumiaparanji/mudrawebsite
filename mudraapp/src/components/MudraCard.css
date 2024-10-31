@@ -1,0 +1,59 @@
+/* src/components/MudraCard.css */
+.mudra-card {
+    perspective: 1000px;
+    cursor: pointer;
+    width: 150px;
+    height: 200px;
+    position: relative;
+}
+
+.mudra-card-front,
+.mudra-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    transition: transform 0.6s;
+    padding: 10px;
+    color: #fff;
+}
+
+.mudra-card-front {
+    background-color: #6c63ff;
+    transform: rotateY(0deg);
+}
+
+.mudra-card-back {
+    background-color: #4b4ac9;
+    transform: rotateY(180deg);
+}
+
+.mudra-card.flipped .mudra-card-front {
+    transform: rotateY(180deg);
+}
+
+.mudra-card.flipped .mudra-card-back {
+    transform: rotateY(0deg);
+}
+
+.mudra-image {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.mudra-name,
+.mudra-translation {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.mudra-usage {
+    font-size: 0.9em;
+    text-align: center;
+}

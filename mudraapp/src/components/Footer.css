@@ -1,0 +1,13 @@
+/* src/components/Footer.css */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: #333;
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 0.5em;
+}
