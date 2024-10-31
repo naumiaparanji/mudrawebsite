@@ -1,12 +1,18 @@
 /* src/pages/Tutorial.css */
 .tutorial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    min-height: 100vh; /* Ensures it takes the full viewport height */
 }
 
 .mudra-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(4, 1fr); /* Adjusted for 4 columns as per your design */
+    gap: 60px;
+    max-width: 80%; /* Controls the width of the grid, centering it */
+    padding: 60px;
+    justify-content: center; /* Centers the grid items */
 }
-

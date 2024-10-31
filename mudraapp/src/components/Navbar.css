@@ -1,16 +1,28 @@
 /* src/components/Navbar.css */
 .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #772F1A; /* Dark olive */
+    color: white;
     display: flex;
     justify-content: center;
-    padding: 1em;
-    background-color: #6c63ff;
+    padding: 1.2em;
+    z-index: 1000; /* Ensures it stays on top of other content */
 }
 
+/* Add padding to the top of the page content so it's not hidden behind the fixed navbar */
+.tutorial {
+    padding-top: 90px; /* Adjust based on navbar height */
+}
+
+
 .nav-link {
-    margin: 0 1em;
+    margin: 0 8em;
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: large;
 }
 
 .nav-link:hover {

@@ -2,9 +2,14 @@
 .mudra-card {
     perspective: 1000px;
     cursor: pointer;
-    width: 150px;
-    height: 200px;
+    width: 280px;
+    height: 320px;
     position: relative;
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.mudra-card:hover {
+    transform: scale(1.1); /* Expands the card by 1.1 on hover */
 }
 
 .mudra-card-front,
@@ -20,16 +25,16 @@
     border-radius: 8px;
     transition: transform 0.6s;
     padding: 10px;
-    color: #fff;
+    color: white;
 }
 
 .mudra-card-front {
-    background-color: #6c63ff;
+    background-color: #EEC170;
     transform: rotateY(0deg);
 }
 
 .mudra-card-back {
-    background-color: #4b4ac9;
+    background-color: #F2A65A;
     transform: rotateY(180deg);
 }
 
@@ -42,9 +47,9 @@
 }
 
 .mudra-image {
-    width: 80px;
+    width: 190px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .mudra-name,

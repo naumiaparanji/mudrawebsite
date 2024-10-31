@@ -1,0 +1,43 @@
+/* src/pages/Home.css */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px; /* Adjusts for fixed navbar */
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    top: -20px; /* Adjust to overlap with the navbar */
+    z-index: 1; /* Ensures the heading appears over the navbar */
+    background-color: #585123; /* Optional background for contrast */
+    color: white; /* Golden yellow for emphasis */
+    padding: 0.2em;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 1400px;
+}
+
+.intro, .guide {
+    background-color: #EEC170; /* Light orange */
+    padding: 15px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1000px;
+    color: #772F1A; /* Deep brown-red for contrast */
+}
+
+.guide {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #F58549; /* Bright orange */
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
