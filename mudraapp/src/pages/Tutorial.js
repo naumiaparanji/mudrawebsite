@@ -45,7 +45,7 @@ const Tutorial = () => {
             <br></br>
             <section className="tutintro">
                 <p>In one of our class discussions, we explored the world of <strong>botany</strong> alongside intriguing pieces of poetry and prose, delving into the concept of flower language. This reminded me of the expressive language of hand gestures in Bharatanatyam. Symbols, gestures, and the language of flowers all serve as unique forms of communication, each conveying emotions and stories in their own way.</p>
-                <p>Please click on each mudra to learn more about its usage in different settings of a choreography.</p>
+                <p>Please click on each mudra I've captured to learn more about its usage in different settings of a choreography.</p>
             </section>
             <div className="mudra-grid">
                 {mudras.map((mudra, index) => (
